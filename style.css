@@ -1,8 +1,23 @@
+body{
+    background:rgb(30, 3, 53);
+}
+
 #title, .subtitle, .post_title{
-    color: blue;    
+    color: cyan;    
 }
 
 .post_title{
+    padding: 20px;
     font-size: 16px;
     font-style: italic;
+    border: 3px solid black;
+}
+
+.subtitle{
+    padding: 7px;
+    border: 3px solid black;
+}
+
+.list{
+    border: 5px solid black;
 }
